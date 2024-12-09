@@ -1,11 +1,14 @@
-import './App.css';
+import "./styles.css";
+import { useState, useEffect } from "react";
+//import { Loader } from "react-feather";
+import UserDetails from "./UserDetails";
 
-function App() {
+const App = () => {
   return (
     <div className="App">
-
+      <UserDetails />
     </div>
   );
-}
+};
 
 export default App;
